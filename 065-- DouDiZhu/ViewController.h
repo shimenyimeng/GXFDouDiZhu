@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, assign) NSInteger sign;
+
+- (void)startButtonClick:(UIButton *)button;
+
++ (instancetype)shareVc;
 
 @end
 
